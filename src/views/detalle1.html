@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Detalle 1 - Jerez de la Frontera</title>
-    <script src="../../node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <script async type="module" src="../../node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
     <header>
         <div class="logo-container">
-            <img id="logo" src="../img/logo.png" alt="Logo catavinos">
+            <img loading="lazy" id="logo" src="../img/logo.png" alt="Logo catavinos">
             <h1>Jerez de la Frontera<i class="fa-solid fa-heart icon"></i></h1>
         </div>
 
@@ -31,13 +31,14 @@
                 histórico
                 y cultural.</p>
             <h3>Historia</h3>
-            <img src="../img/jerez.jpg" alt="Jerez de la Frontera">
+            <img loading="lazy" src="../img/jerez.jpg" alt="Jerez de la Frontera">
             <p>La ciudad de Jerez tiene una larga historia que se remonta a la época fenicia. A lo largo de los siglos,
                 ha
                 sido habitada por romanos, visigodos, musulmanes y cristianos. Durante la Edad Media, Jerez fue una
                 importante ciudad comercial y cultural, conocida por sus vinos y sus artesanías.</p>
 
-            <img srcset="../img/320px-gallo.jpg 200w, ../img/480px-gallo.jpg 720w, ../img/720px-gallo.jpg 1100w"
+            <img loading="lazy"
+                srcset="../img/320px-gallo.jpg 200w, ../img/480px-gallo.jpg 720w, ../img/720px-gallo.jpg 1100w"
                 alt="Gallo azul">
             <h3>Qué ver en Jerez</h3>
             <ul>
@@ -59,7 +60,7 @@
             <picture>
                 <source media="(max-width: 799px)" srcset="../img/478px-catedral.jpg">
                 <source media="(min-width: 800px)" srcset="../img/717px-catedral.jpg">
-                <img src="../img/717px-catedral.jpg" alt="Catedral de Jerez">
+                <img loading="lazy" src="../img/717px-catedral.jpg" alt="Catedral de Jerez">
             </picture>
         </section>
         <div class="other-categories">
@@ -68,7 +69,7 @@
         </div>
     </main>
     <footer class="footer">
-        <img id="logo" src="../img/logo.png" alt="Logo del footer">
+        <img loading="lazy" id="logo" src="../img/logo.png" alt="Logo del footer">
         <nav>
             <ul>
                 <li><a href="../index.html"><i class="fa-solid fa-house"></i>Portada</a></li>
