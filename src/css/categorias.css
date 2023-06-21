@@ -51,14 +51,14 @@ p {
 }
 
 .link-img#historia-card {
-    background-image: url(../img/jerez.jpg);
+    background-image: url(../img/jerez.webp);
 }
 
 .link-img#circuito-card {
-    background-image: url(../img/circuito.jpg);
+    background-image: url(../img/circuito.webp);
 }
 .link-img#bodega-card {
-    background-image: url(../img/bodegas-jerez.jpg);
+    background-image: url(../img/bodegas-jerez.webp);
 }
 .cat-link {
     text-decoration: none;
